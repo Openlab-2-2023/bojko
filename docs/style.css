@@ -1,0 +1,21 @@
+h1 {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-stretch: condensed;
+  font-weight: bolder;
+  font-size: 100px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  
+  
+}
+
+body{
+  background-color: black;
+  
+}
+img{
+  width: 1300px;
+  height: 800px;
+}
