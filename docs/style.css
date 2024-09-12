@@ -27,8 +27,16 @@ body{
   
 }
 img{
-  width: 1300px;
-  height: 800px;
+  width: 750px;
+  height: 600px;
   border-radius: 50px;
   
+}
+.angel{
+  margin-left: 350px;
+  
+}
+.container{
+  display: flex;
+  align-items: center;
 }
