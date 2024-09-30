@@ -1,34 +1,102 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>cool</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-        <div class="container">
-            <div>
-                <h1>neon</h1>
-                <h1>genesis</h1>
-                <h1>evangelion</h1>
-                <p>episode:1</p>
-                <p class="episodename">angel attack</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <!-- Fonts -->
+    <link rel="icon" href="images/portrait-cropped.png" type="image/png">
+    <title>Samuel Bojko</title>
+</head>
+<body>
+    <div class="container"> <!-- everything -->
+        <div class="header" id="header-selection"> <!-- header -->
+            <div class="name">
             </div>
-            <div>
-                <img src="./images/end-of-evangelion.jpg">
+            <div class="navigation"> <!-- navigation buttons -->
+                <a href="#header-selection">
+                    <button class="nav-b">Home</button>
+                </a>
+
+                <a href="#general-selection">
+                    <button class="nav-b">General</button>
+                </a>
+
+                <a href="#contact-selection">
+                    <button class="nav-b">Contact</button>
+                </a>
+                
             </div>
         </div>
 
-        <div class="container">
-            <div>
-                <h1>neon</h1>
-                <h1>genesis</h1>
-                <h1>evangelion</h1>
-                <p>episode:2</p>
-                <p class="episodename">Unfamiliar Ceilings</p>
-            </div>
-            <div>
-                <img src="./images/windowsxp evangelion.jpg">
+        <div> <!-- home/introduction page -->
+            <div class="introduction">
+                <div> 
+                    <p>Hello,<br>I'm Samuel.</p>
+                    <p>Welcome to my Portfolio.</p>
+                </div>
+
+                <div>
+                    <img class="portrait" src="images/portrait.jpg">
+                </div>
             </div>
         </div>
-    </body>
+
+        <div class="general-page" id="general-selection"> <!-- general/about me page -->
+            <div>
+                <div class="about-me"> <!-- about me -->
+                    <p>About Me</p>
+                    <p>My name is Samuel. I'm 16 years old, and this is my first time bulding a website. I'm a student at the Secondary Industrial School of Information Technologies in Kysucké Nové Mesto, where I get to explore my passion for programming and creating things on my computer.</p>
+                </div>
+                
+                <div class="education"> <!-- education -->
+                    <p>Education</p>
+                    <p>2014-2023</p>
+                    <p>Primary School of Milan Mravec, Raková</p>
+                    <p>2023-Current</p>
+                    <p>Secondary Industrial School of Information Technologies, Kysucké Nové Mesto</p>
+
+                </div>
+                
+            </div>
+
+            <div class="hobbies"> <!-- hobbies -->
+                <p>Hobbies</p> 
+                <p>I spend most of my free time immersed in video editing with Adobe After Effects. The magic of visual effects and animation has captivated me ever since I was a kid, and that fascination hasn't faded. While I haven’t been playing many video games lately, I have a deep love for Soulsborne games, Terraria, and classics from the Game Boy Advance era like Pokémon Emerald. Beyond gaming, I really enjoy being outdoors whether it's hanging out with friends, playing sports, or catching a movie at the cinema. Music is another passion that’s always been a huge part of my life!</p>
+                
+            </div>
+        </div>
+
+        <div class="contact" id="contact-selection"> <!-- contact me page -->
+            <div>
+                <div class="title">
+                    <p>Contact me</p>
+                </div>
+                <div class="contacts">
+                    <P>notmyemail@gmail.com</P>
+                    <P>0123 456 789</P>
+                </div>
+            </div>
+                
+            <div>
+                <img src="images/computergif.gif">
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+
 </html>
