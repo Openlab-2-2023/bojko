@@ -54,6 +54,7 @@ html {
   padding-bottom: 70px;
   margin-bottom: 0px;
   display: flex;
+  width: 100%;
 }
 /*first introduction paragraph ("hello im samuel")*/
 .introduction p:first-child {
@@ -80,10 +81,12 @@ html {
   padding-bottom: 130px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  width: 100%;
 }
 /*about me div*/
 .about-me {
   margin-bottom: 0px;
+  width: 100%;
 }
 /*about me title*/
 .about-me p:first-child {
@@ -180,6 +183,7 @@ html {
   background-color: #D9D7B6;
   padding-bottom: 20px;
   display: flex;
+  width: 100%;
 }
 
 
